@@ -1,0 +1,13 @@
+Algoritmo Ejercicio8
+	Mientras opcion<>'S' Hacer
+		seguir <- True
+		Mientras seguir==True Hacer
+			rnd <- Aleatorio(0,100)
+			Si rnd MOD 5==0 Entonces
+				num <- rnd
+				Escribir num
+				seguir <- False
+			FinSi
+		FinMientras
+	FinMientras
+FinAlgoritmo
